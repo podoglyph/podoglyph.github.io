@@ -8,31 +8,54 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
     <link href="styles.css" rel="stylesheet" type="text/css" />
 </head>
-
-<div id="header">
-	<a href="/"><img id="logo" src="images/po_logo.png" alt="Logo"></a>
-	<div class="clear"></div>
-</div>
-
-<div id="main">
-	<div id="sidebar">
-		<ul id="menu">
-			<li class="item-1"><a href="#">Blog</a></li>
-			<li class="item-2"><a href="#">Archives</a></li>
-			<li class="item-3"><a href="https://github.com/podoglyph/">Github</a></li>
-      <li class="item-4"><a href="https://twitter.com/padraiconeill22">Twitter</a></li>
-			<li class="item-5"><a href="https://linkedin.com/in/padraiconeill">LinkedIn</a></li>
-		</ul>
-	</div>
-
-	<div id="content">
-		<p class="banner"><img src="images/prairie.jpg" alt="Banner" /></p>
-		<h1>Turing Motions</h1>
-    <h3>...the social-technical-personal experience</h3>
-		<p>Like many, I was also looking for something new.</p>
-	</div>
-	<div class="clear"></div>
-  <div id="footer">
-  	<p class="footer-memo">You rock!</p>
+<body>
+  <div id="header">
+  	<a href="/"><img id="logo" src="images/po_logo.png" alt="Logo"></a>
+  	<div class="clear"></div>
   </div>
-</div>
+
+  <div id="main">
+  	<div id="sidebar">
+  		<ul id="menu">
+  			<li class="item-1"><a href="#">Blog</a></li>
+  			<li class="item-2"><a href="#">Archives</a></li>
+  			<li class="item-3"><a href="https://github.com/podoglyph/">Github</a></li>
+        <li class="item-4"><a href="https://twitter.com/padraiconeill22">Twitter</a></li>
+  			<li class="item-5"><a href="https://linkedin.com/in/padraiconeill">LinkedIn</a></li>
+  		</ul>
+  	</div>
+
+  	<div id="content">
+  		<p class="banner"><img src="images/prairie.jpg" alt="Banner" /></p>
+  		<h1>Turing Motions: Part I of II</h1>
+      <h3>...the social-technical-personal experience</h3>
+  		<p><span style="font-size: 34px;">L</span>ike many, I was also looking for something new. In early 2016 I’d started a promising new job where I would learn digital fabrication and design using cutting-edge technologies. After seven months, with an upscale-modern tiny house built, a cable-television debut, and an extremely well-attended open-house, no new revenue came in. That was, in a sense, just fine with me. I’d wanted to leave New Mexico and the timing was just right so that I could pack up and move to North Dakota for two months to harvest honey with my brother and his wife. Spending every day driving past vast alfalfa fields, sunflower fields, and open pasture with cows, bulls, deer, horses, and bees, I began to take stock of my best capabilities and where I ought to direct them. My personal inventory was assuredly sprawling, and I found bounty in nearly every corner of my work history, and also in a slew of childhood dreams and memories. Beekeeping is one of those jobs where your day is going to go well or not-so-well based on nature, specifically the bees and the weather, mechanical problems aside. After several weeks I began to remember how much I truly enjoy feeling connected to nature. With that in mind, one might ask, why the heck would you want to be a programmer?
+    </p>
+    <p>
+      I wanted the bounce-back. I needed to feel wave motion in my neural network. I yearned to hear the ping from the depths. And then, it happened. Eureka! The lightbulb flashed. The Faraday cage lifted. I was magnetized.
+    </p>
+    <p>
+      The first day at Turing was exciting. Introductions from staff and other students were pretty normal, however, I sensed that we all shared a similar purpose, which made every interaction that much more intriguing. By day three we were assigned algorithms to program from scratch. On my first project, I realized how little I’d learned about programming despite building custom Wordpress sites for 18 months. I had no problem thinking about strings, arrays, or integers, but using Object Oriented Programming techniques to build a logical sequence more than a few thoughts in length was an entirely different arena. Turing knew the pain I and my cohort shared, and Turing just kept picking up the pace. Did I program every single day? Yes. Did I dream about programming? Yes. Did I wonder how to program the damn coffee maker? Yes.
+    </p>
+    <p>
+        From a technical point of view the first module for Back-End students at Turing is just plain difficult. Nothing is done slowly at Turing, as if Alan Turing’s spirit is working frantically to crack the code and we’re all just along for the ride, trying to keep up. But I suspect everyone has at least one moment during the first module when they feel like they’ve contributed in a meaningful way to their own work, all following in one way or another the path Alan laid out. Mine was during the project, Battleship, when on pen and paper, way too late at night, I began to conceptualize the Battleship square grid. While in the midst of one of those staring into space in quiet contemplation moments, no doubt my eyes were twitching, I remembered the Wozniak Posse’s recent presentation of the Heap and a familiar <em>n + 1</em> notation popped into my head as related to arrays. My following work on Battleship was not a work of genius, but it was certainly a work of creativity, which is exactly why, despite any other achievements during the first module, this one remains the most important. To have that moment of creativity be so intertwined with my work at Turing was the bees knees.
+      </p>
+      In Part II of this post, I’ll talk about one fascinating data structure that continues to intrigue and mystify me, the binary search tree.
+      </p>
+  	</div>
+
+  	<div class="clear"></div>
+
+    <div id="footer">
+      <p id="copyright">Copyright: <span id="date"></span></p>
+    	<p class="footer-memo">You rock!</p>
+    </div>
+
+  </div>
+
+  <script>
+    var d = new Date();
+    document.getElementById("date").innerHTML = d.getFullYear();
+  </script>
+
+</body>

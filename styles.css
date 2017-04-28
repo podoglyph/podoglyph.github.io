@@ -53,6 +53,10 @@ p {
   border-top: 2px solid #fff;
 }
 
+#copyright {
+	float:left;
+}
+
 #logo {
   float: left;
   height: 100%;
